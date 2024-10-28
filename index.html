@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打磚塊遊戲</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="difficultySelection">
+        <h2>選擇遊戲難度</h2>
+        <button class="difficultyBtn" data-difficulty="easy">簡單</button>
+        <button class="difficultyBtn" data-difficulty="medium">中等</button>
+        <button class="difficultyBtn" data-difficulty="hard">困難</button>
+    </div>
+    <canvas id="gameCanvas" style="display: none;"></canvas>
+    <div id="score" style="display: none;">分數: 0</div>
+    <div id="lives" style="display: none;">生命: 3</div>
+    <button id="restartBtn" style="display: none;">重新開始</button>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+
+</body>
+</html>
